@@ -1,0 +1,159 @@
+/* styles.css */
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #680486;
+    color: white;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar nav ul li {
+    margin-right: 20px;
+}
+
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar nav ul li a:hover {
+    color: #f0f0f0;
+}
+
+/* Section styling */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.container {
+    font-family: cursive;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 20px;
+    color: darkblue;
+
+}
+
+h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-size: 1.2em;
+    color: #555;}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+.logo {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-logo {
+    width: 50px;
+    aspect-ratio: 1;
+}
+
+.img-gallery {
+  
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+img {
+    border-radius: 20px;
+    width: 300px;
+    object-fit: cover;
+}
+.img-gallery img:hover{
+    box-shadow: 0 9px 9px 0;
+    cursor: pointer;
+}
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    .navbar nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar nav ul li {
+        margin: 10px 0;
+    }
+
+    .section {
+        padding: 40px 10px;
+    }
+
+    button {
+        padding: 12px 25px;
+    }
+}
+
+.inputs {
+    border: 1px solid;
+}
+
+.about-sec {
+    font-size: 25px;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 50px;
+}
+
+#Notices {
+    text-align: left;
+}
